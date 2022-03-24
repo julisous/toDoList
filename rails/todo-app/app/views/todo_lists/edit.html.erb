@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+<h4><b>Edição de tarefa<b></h4>
+
+<%= render "form", todo_list: @todo_list %>
+
+<br>
+
+<div>
+  <%= link_to "Mostrar esta tarefa", @todo_list %> |
+  <%= link_to "Voltar para outras listas", todo_lists_path %>
+</div>
+</div>
